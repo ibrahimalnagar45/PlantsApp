@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "D:/flutter_projects/plantapp/linux"
+    "cmake.sourceDirectory": "D:/flutter_projects/plantapp/linux",
+
+    "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+ }
 }

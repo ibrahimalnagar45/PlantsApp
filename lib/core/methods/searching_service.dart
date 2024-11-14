@@ -1,6 +1,6 @@
 import 'package:plantapp/models/plant_information_model.dart';
 
-import '../pages/Home_page.dart';
+import '../../views/home_view.dart';
 
 PlantModel? Isexit(String data) {
   for (var i = 0; i < plants.length; i++) {

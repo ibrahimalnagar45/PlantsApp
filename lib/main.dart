@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantapp/constants.dart';
-import 'package:plantapp/pages/Home_page.dart';
+import 'package:plantapp/views/home_view.dart';
 
 void main() {
   runApp(const PlantApp());
@@ -18,6 +18,6 @@ class PlantApp extends StatelessWidget {
           primaryColor: kPrimaryColor,
           scaffoldBackgroundColor: kPrimaryBackgroundColor,
         ),
-        home: const HomePage());
+        home: const HomeView());
   }
 }

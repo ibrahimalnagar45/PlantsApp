@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plantapp/constants.dart';
 import 'package:plantapp/models/plant_information_model.dart';
-import 'package:plantapp/pages/Detailed_page.dart';
+import 'package:plantapp/views/detailed_view.dart';
 
 class PlantInfoBigger extends StatelessWidget {
   const PlantInfoBigger({super.key, required this.plant});
